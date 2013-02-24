@@ -34,13 +34,10 @@ void Room::init(const std::string& config_path){
 void Room::capture(const std::string& output_dir){
 	std::vector<std::shared_ptr<std::thread> > thread_ptr_array;
 	for(size_t i = 0; i < m_camera_array.size(); ++i){
-		thread_ptr_array.push_back(std::shared_ptr<std::thread>(new std::thread([&](){
+		thread_ptr_array.push_back(std::shared_ptr<std::thread>(new std::thread([&, i](){
 			std::string prefix = output_dir + "/" + m_camera_array[i]->get_ip_address();
 			m_camera_array[i]->capture(prefix + ".frame", prefix + ".timestamp");
 		})));
 	}
 	std::for_each(thread_ptr_array.begin(), thread_ptr_array.end(), [](std::shared_ptr<std::thread>& p){p->join();});
-	/*for(size_t i = 0; i < thread_ptr_array.size(); ++i){
-		thread_ptr_array[i]->join();
-	}*/
 }
