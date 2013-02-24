@@ -38,5 +38,6 @@ private:
 	std::mutex m_queue_mutex;
 	std::condition_variable m_condition_var;
 	std::queue<cv::Mat> m_buffer_queue; // maintain the producer consumer queue.
+	bool m_stop; // indicate whether to stop the capture.
 };
 

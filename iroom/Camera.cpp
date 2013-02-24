@@ -61,7 +61,7 @@ cv::Mat Camera::generate_image(unsigned char* c_ptr, size_t len){
 	return image;
 }
 
-Camera::Camera(const std::string& ip_address, const std::string& username, const std::string& password) : m_ip_address(ip_address), m_username(username), m_password(password), m_curl_handle(NULL){
+Camera::Camera(const std::string& ip_address, const std::string& username, const std::string& password) : m_ip_address(ip_address), m_username(username), m_password(password), m_curl_handle(NULL), m_stop(true){
 	std::string userpass = m_username + ":" + m_password;
 	m_curl_handle = curl_easy_init();
 	curl_easy_setopt(m_curl_handle, CURLOPT_USERPWD, userpass.c_str());
@@ -70,6 +70,7 @@ Camera::Camera(const std::string& ip_address, const std::string& username, const
 void Camera::capture(const std::string& frame_path, const std::string& timestamp_path){
 	m_frame_path = frame_path;
 	m_timestamp_path = timestamp_path;
+	m_stop = false;
 	m_frame_stream.open(m_frame_path, std::ios::binary);
 	m_timestamp_stream.open(m_timestamp_path);
 	if(m_frame_stream.good() && m_timestamp_stream.good()){
@@ -84,14 +85,14 @@ void Camera::capture(const std::string& frame_path, const std::string& timestamp
 		// create a thread for consumer
 		std::thread consumer([&](){
 			cv::namedWindow(m_ip_address);
-			std::unique_lock<std::mutex> lock(m_queue_mutex);
-			while(true){
-				m_condition_var.wait(lock);
-				while (!m_buffer_queue.empty()) {
-					cv::imshow(m_ip_address, m_buffer_queue.front());
-					cv::waitKey(30);
-					m_buffer_queue.pop();
+			while(!m_stop){
+				std::unique_lock<std::mutex> lock(m_queue_mutex);
+				while(m_buffer_queue.empty()){
+					m_condition_var.wait(lock); // guard against spurious wakeups
 				}
+				cv::imshow(m_ip_address, m_buffer_queue.front());
+				cv::waitKey(30);
+				m_buffer_queue.pop();
 			}
 		});
 		producer.join();
