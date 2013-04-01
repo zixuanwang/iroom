@@ -23,7 +23,7 @@ public:
 	std::string get_frame_path(){return m_frame_path;}
 	std::string get_timestamp_path(){return m_timestamp_path;}
 	static size_t invoke_frame_producer(void* ptr, size_t size, size_t nmemb, void* p_instance);
-	size_t Camera::frame_producer(void* ptr, size_t size, size_t nmemb);
+	size_t frame_producer(void* ptr, size_t size, size_t nmemb);
 	cv::Mat generate_frame(unsigned char* c_ptr, size_t len);
 	void save_frame(const cv::Mat& image); // save image to m_video_writer and save the according timestamp to m_timestamp_stream. called from the consumer.
 	CURL* get_curl_handle(){return m_curl_handle;}
