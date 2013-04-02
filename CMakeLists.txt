@@ -12,5 +12,6 @@ ${CMAKE_CURRENT_SOURCE_DIR}
 ${Boost_INCLUDE_DIRS}
 ${CURL_INCLUDE_DIR}
 )
-ADD_EXECUTABLE(iroom Camera.h Camera.cpp Room.h Room.cpp main.cpp)
-TARGET_LINK_LIBRARIES(iroom ${OpenCV_LIBRARIES} ${Boost_LIBRARIES} ${CURL_LIBRARIES})
+ADD_EXECUTABLE(camera Camera.h Camera.cpp CameraMain.cpp)
+ADD_EXECUTABLE(iroom iRoomMain.cpp)
+TARGET_LINK_LIBRARIES(camera ${OpenCV_LIBRARIES} ${Boost_LIBRARIES} ${CURL_LIBRARIES})
