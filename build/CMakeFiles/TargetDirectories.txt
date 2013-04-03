@@ -1,0 +1,4 @@
+/home/zxwang/workspace/iroom/build/CMakeFiles/analyser.dir
+/home/zxwang/workspace/iroom/build/CMakeFiles/annotate.dir
+/home/zxwang/workspace/iroom/build/CMakeFiles/camera.dir
+/home/zxwang/workspace/iroom/build/CMakeFiles/iroom.dir

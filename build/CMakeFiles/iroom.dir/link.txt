@@ -1,0 +1,1 @@
+/usr/bin/c++   -Wall -g -O0 -std=c++11    CMakeFiles/iroom.dir/iRoomMain.cpp.o  -o iroom -rdynamic 
