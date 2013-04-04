@@ -75,14 +75,164 @@ CMakeFiles/analyser.dir/AnalyserMain.cpp.o.provides: CMakeFiles/analyser.dir/Ana
 
 CMakeFiles/analyser.dir/AnalyserMain.cpp.o.provides.build: CMakeFiles/analyser.dir/AnalyserMain.cpp.o
 
+CMakeFiles/analyser.dir/FeatureDescriptor.cpp.o: CMakeFiles/analyser.dir/flags.make
+CMakeFiles/analyser.dir/FeatureDescriptor.cpp.o: ../FeatureDescriptor.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/zxwang/workspace/iroom/build/CMakeFiles $(CMAKE_PROGRESS_2)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/analyser.dir/FeatureDescriptor.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/analyser.dir/FeatureDescriptor.cpp.o -c /home/zxwang/workspace/iroom/FeatureDescriptor.cpp
+
+CMakeFiles/analyser.dir/FeatureDescriptor.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/analyser.dir/FeatureDescriptor.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/zxwang/workspace/iroom/FeatureDescriptor.cpp > CMakeFiles/analyser.dir/FeatureDescriptor.cpp.i
+
+CMakeFiles/analyser.dir/FeatureDescriptor.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/analyser.dir/FeatureDescriptor.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/zxwang/workspace/iroom/FeatureDescriptor.cpp -o CMakeFiles/analyser.dir/FeatureDescriptor.cpp.s
+
+CMakeFiles/analyser.dir/FeatureDescriptor.cpp.o.requires:
+.PHONY : CMakeFiles/analyser.dir/FeatureDescriptor.cpp.o.requires
+
+CMakeFiles/analyser.dir/FeatureDescriptor.cpp.o.provides: CMakeFiles/analyser.dir/FeatureDescriptor.cpp.o.requires
+	$(MAKE) -f CMakeFiles/analyser.dir/build.make CMakeFiles/analyser.dir/FeatureDescriptor.cpp.o.provides.build
+.PHONY : CMakeFiles/analyser.dir/FeatureDescriptor.cpp.o.provides
+
+CMakeFiles/analyser.dir/FeatureDescriptor.cpp.o.provides.build: CMakeFiles/analyser.dir/FeatureDescriptor.cpp.o
+
+CMakeFiles/analyser.dir/Histogram.cpp.o: CMakeFiles/analyser.dir/flags.make
+CMakeFiles/analyser.dir/Histogram.cpp.o: ../Histogram.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/zxwang/workspace/iroom/build/CMakeFiles $(CMAKE_PROGRESS_3)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/analyser.dir/Histogram.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/analyser.dir/Histogram.cpp.o -c /home/zxwang/workspace/iroom/Histogram.cpp
+
+CMakeFiles/analyser.dir/Histogram.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/analyser.dir/Histogram.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/zxwang/workspace/iroom/Histogram.cpp > CMakeFiles/analyser.dir/Histogram.cpp.i
+
+CMakeFiles/analyser.dir/Histogram.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/analyser.dir/Histogram.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/zxwang/workspace/iroom/Histogram.cpp -o CMakeFiles/analyser.dir/Histogram.cpp.s
+
+CMakeFiles/analyser.dir/Histogram.cpp.o.requires:
+.PHONY : CMakeFiles/analyser.dir/Histogram.cpp.o.requires
+
+CMakeFiles/analyser.dir/Histogram.cpp.o.provides: CMakeFiles/analyser.dir/Histogram.cpp.o.requires
+	$(MAKE) -f CMakeFiles/analyser.dir/build.make CMakeFiles/analyser.dir/Histogram.cpp.o.provides.build
+.PHONY : CMakeFiles/analyser.dir/Histogram.cpp.o.provides
+
+CMakeFiles/analyser.dir/Histogram.cpp.o.provides.build: CMakeFiles/analyser.dir/Histogram.cpp.o
+
+CMakeFiles/analyser.dir/ColorDescriptor.cpp.o: CMakeFiles/analyser.dir/flags.make
+CMakeFiles/analyser.dir/ColorDescriptor.cpp.o: ../ColorDescriptor.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/zxwang/workspace/iroom/build/CMakeFiles $(CMAKE_PROGRESS_4)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/analyser.dir/ColorDescriptor.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/analyser.dir/ColorDescriptor.cpp.o -c /home/zxwang/workspace/iroom/ColorDescriptor.cpp
+
+CMakeFiles/analyser.dir/ColorDescriptor.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/analyser.dir/ColorDescriptor.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/zxwang/workspace/iroom/ColorDescriptor.cpp > CMakeFiles/analyser.dir/ColorDescriptor.cpp.i
+
+CMakeFiles/analyser.dir/ColorDescriptor.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/analyser.dir/ColorDescriptor.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/zxwang/workspace/iroom/ColorDescriptor.cpp -o CMakeFiles/analyser.dir/ColorDescriptor.cpp.s
+
+CMakeFiles/analyser.dir/ColorDescriptor.cpp.o.requires:
+.PHONY : CMakeFiles/analyser.dir/ColorDescriptor.cpp.o.requires
+
+CMakeFiles/analyser.dir/ColorDescriptor.cpp.o.provides: CMakeFiles/analyser.dir/ColorDescriptor.cpp.o.requires
+	$(MAKE) -f CMakeFiles/analyser.dir/build.make CMakeFiles/analyser.dir/ColorDescriptor.cpp.o.provides.build
+.PHONY : CMakeFiles/analyser.dir/ColorDescriptor.cpp.o.provides
+
+CMakeFiles/analyser.dir/ColorDescriptor.cpp.o.provides.build: CMakeFiles/analyser.dir/ColorDescriptor.cpp.o
+
+CMakeFiles/analyser.dir/HoGDescriptor.cpp.o: CMakeFiles/analyser.dir/flags.make
+CMakeFiles/analyser.dir/HoGDescriptor.cpp.o: ../HoGDescriptor.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/zxwang/workspace/iroom/build/CMakeFiles $(CMAKE_PROGRESS_5)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/analyser.dir/HoGDescriptor.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/analyser.dir/HoGDescriptor.cpp.o -c /home/zxwang/workspace/iroom/HoGDescriptor.cpp
+
+CMakeFiles/analyser.dir/HoGDescriptor.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/analyser.dir/HoGDescriptor.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/zxwang/workspace/iroom/HoGDescriptor.cpp > CMakeFiles/analyser.dir/HoGDescriptor.cpp.i
+
+CMakeFiles/analyser.dir/HoGDescriptor.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/analyser.dir/HoGDescriptor.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/zxwang/workspace/iroom/HoGDescriptor.cpp -o CMakeFiles/analyser.dir/HoGDescriptor.cpp.s
+
+CMakeFiles/analyser.dir/HoGDescriptor.cpp.o.requires:
+.PHONY : CMakeFiles/analyser.dir/HoGDescriptor.cpp.o.requires
+
+CMakeFiles/analyser.dir/HoGDescriptor.cpp.o.provides: CMakeFiles/analyser.dir/HoGDescriptor.cpp.o.requires
+	$(MAKE) -f CMakeFiles/analyser.dir/build.make CMakeFiles/analyser.dir/HoGDescriptor.cpp.o.provides.build
+.PHONY : CMakeFiles/analyser.dir/HoGDescriptor.cpp.o.provides
+
+CMakeFiles/analyser.dir/HoGDescriptor.cpp.o.provides.build: CMakeFiles/analyser.dir/HoGDescriptor.cpp.o
+
+CMakeFiles/analyser.dir/MotionDescriptor.cpp.o: CMakeFiles/analyser.dir/flags.make
+CMakeFiles/analyser.dir/MotionDescriptor.cpp.o: ../MotionDescriptor.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/zxwang/workspace/iroom/build/CMakeFiles $(CMAKE_PROGRESS_6)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/analyser.dir/MotionDescriptor.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/analyser.dir/MotionDescriptor.cpp.o -c /home/zxwang/workspace/iroom/MotionDescriptor.cpp
+
+CMakeFiles/analyser.dir/MotionDescriptor.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/analyser.dir/MotionDescriptor.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/zxwang/workspace/iroom/MotionDescriptor.cpp > CMakeFiles/analyser.dir/MotionDescriptor.cpp.i
+
+CMakeFiles/analyser.dir/MotionDescriptor.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/analyser.dir/MotionDescriptor.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/zxwang/workspace/iroom/MotionDescriptor.cpp -o CMakeFiles/analyser.dir/MotionDescriptor.cpp.s
+
+CMakeFiles/analyser.dir/MotionDescriptor.cpp.o.requires:
+.PHONY : CMakeFiles/analyser.dir/MotionDescriptor.cpp.o.requires
+
+CMakeFiles/analyser.dir/MotionDescriptor.cpp.o.provides: CMakeFiles/analyser.dir/MotionDescriptor.cpp.o.requires
+	$(MAKE) -f CMakeFiles/analyser.dir/build.make CMakeFiles/analyser.dir/MotionDescriptor.cpp.o.provides.build
+.PHONY : CMakeFiles/analyser.dir/MotionDescriptor.cpp.o.provides
+
+CMakeFiles/analyser.dir/MotionDescriptor.cpp.o.provides.build: CMakeFiles/analyser.dir/MotionDescriptor.cpp.o
+
+CMakeFiles/analyser.dir/Utility.cpp.o: CMakeFiles/analyser.dir/flags.make
+CMakeFiles/analyser.dir/Utility.cpp.o: ../Utility.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/zxwang/workspace/iroom/build/CMakeFiles $(CMAKE_PROGRESS_7)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/analyser.dir/Utility.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/analyser.dir/Utility.cpp.o -c /home/zxwang/workspace/iroom/Utility.cpp
+
+CMakeFiles/analyser.dir/Utility.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/analyser.dir/Utility.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/zxwang/workspace/iroom/Utility.cpp > CMakeFiles/analyser.dir/Utility.cpp.i
+
+CMakeFiles/analyser.dir/Utility.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/analyser.dir/Utility.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/zxwang/workspace/iroom/Utility.cpp -o CMakeFiles/analyser.dir/Utility.cpp.s
+
+CMakeFiles/analyser.dir/Utility.cpp.o.requires:
+.PHONY : CMakeFiles/analyser.dir/Utility.cpp.o.requires
+
+CMakeFiles/analyser.dir/Utility.cpp.o.provides: CMakeFiles/analyser.dir/Utility.cpp.o.requires
+	$(MAKE) -f CMakeFiles/analyser.dir/build.make CMakeFiles/analyser.dir/Utility.cpp.o.provides.build
+.PHONY : CMakeFiles/analyser.dir/Utility.cpp.o.provides
+
+CMakeFiles/analyser.dir/Utility.cpp.o.provides.build: CMakeFiles/analyser.dir/Utility.cpp.o
+
 # Object files for target analyser
 analyser_OBJECTS = \
-"CMakeFiles/analyser.dir/AnalyserMain.cpp.o"
+"CMakeFiles/analyser.dir/AnalyserMain.cpp.o" \
+"CMakeFiles/analyser.dir/FeatureDescriptor.cpp.o" \
+"CMakeFiles/analyser.dir/Histogram.cpp.o" \
+"CMakeFiles/analyser.dir/ColorDescriptor.cpp.o" \
+"CMakeFiles/analyser.dir/HoGDescriptor.cpp.o" \
+"CMakeFiles/analyser.dir/MotionDescriptor.cpp.o" \
+"CMakeFiles/analyser.dir/Utility.cpp.o"
 
 # External object files for target analyser
 analyser_EXTERNAL_OBJECTS =
 
 analyser: CMakeFiles/analyser.dir/AnalyserMain.cpp.o
+analyser: CMakeFiles/analyser.dir/FeatureDescriptor.cpp.o
+analyser: CMakeFiles/analyser.dir/Histogram.cpp.o
+analyser: CMakeFiles/analyser.dir/ColorDescriptor.cpp.o
+analyser: CMakeFiles/analyser.dir/HoGDescriptor.cpp.o
+analyser: CMakeFiles/analyser.dir/MotionDescriptor.cpp.o
+analyser: CMakeFiles/analyser.dir/Utility.cpp.o
 analyser: CMakeFiles/analyser.dir/build.make
 analyser: /usr/local/lib/libopencv_calib3d.so
 analyser: /usr/local/lib/libopencv_contrib.so
@@ -112,6 +262,12 @@ CMakeFiles/analyser.dir/build: analyser
 .PHONY : CMakeFiles/analyser.dir/build
 
 CMakeFiles/analyser.dir/requires: CMakeFiles/analyser.dir/AnalyserMain.cpp.o.requires
+CMakeFiles/analyser.dir/requires: CMakeFiles/analyser.dir/FeatureDescriptor.cpp.o.requires
+CMakeFiles/analyser.dir/requires: CMakeFiles/analyser.dir/Histogram.cpp.o.requires
+CMakeFiles/analyser.dir/requires: CMakeFiles/analyser.dir/ColorDescriptor.cpp.o.requires
+CMakeFiles/analyser.dir/requires: CMakeFiles/analyser.dir/HoGDescriptor.cpp.o.requires
+CMakeFiles/analyser.dir/requires: CMakeFiles/analyser.dir/MotionDescriptor.cpp.o.requires
+CMakeFiles/analyser.dir/requires: CMakeFiles/analyser.dir/Utility.cpp.o.requires
 .PHONY : CMakeFiles/analyser.dir/requires
 
 CMakeFiles/analyser.dir/clean:

@@ -12,7 +12,7 @@ ${CMAKE_CURRENT_SOURCE_DIR}
 ${Boost_INCLUDE_DIRS}
 ${CURL_INCLUDE_DIR}
 )
-ADD_EXECUTABLE(analyser AnalyserMain.cpp)
+ADD_EXECUTABLE(analyser AnalyserMain.cpp FeatureDescriptor.h FeatureDescriptor.cpp Histogram.h Histogram.cpp ColorDescriptor.h ColorDescriptor.cpp HoGDescriptor.h HoGDescriptor.cpp MotionDescriptor.h MotionDescriptor.cpp Utility.h Utility.cpp)
 ADD_EXECUTABLE(camera Camera.h Camera.cpp CameraMain.cpp)
 ADD_EXECUTABLE(iroom iRoomMain.cpp)
 ADD_EXECUTABLE(annotate AnnotateMain.cpp)

@@ -249,6 +249,150 @@ CameraMain.cpp.s:
 	$(MAKE) -f CMakeFiles/camera.dir/build.make CMakeFiles/camera.dir/CameraMain.cpp.s
 .PHONY : CameraMain.cpp.s
 
+ColorDescriptor.o: ColorDescriptor.cpp.o
+.PHONY : ColorDescriptor.o
+
+# target to build an object file
+ColorDescriptor.cpp.o:
+	$(MAKE) -f CMakeFiles/analyser.dir/build.make CMakeFiles/analyser.dir/ColorDescriptor.cpp.o
+.PHONY : ColorDescriptor.cpp.o
+
+ColorDescriptor.i: ColorDescriptor.cpp.i
+.PHONY : ColorDescriptor.i
+
+# target to preprocess a source file
+ColorDescriptor.cpp.i:
+	$(MAKE) -f CMakeFiles/analyser.dir/build.make CMakeFiles/analyser.dir/ColorDescriptor.cpp.i
+.PHONY : ColorDescriptor.cpp.i
+
+ColorDescriptor.s: ColorDescriptor.cpp.s
+.PHONY : ColorDescriptor.s
+
+# target to generate assembly for a file
+ColorDescriptor.cpp.s:
+	$(MAKE) -f CMakeFiles/analyser.dir/build.make CMakeFiles/analyser.dir/ColorDescriptor.cpp.s
+.PHONY : ColorDescriptor.cpp.s
+
+FeatureDescriptor.o: FeatureDescriptor.cpp.o
+.PHONY : FeatureDescriptor.o
+
+# target to build an object file
+FeatureDescriptor.cpp.o:
+	$(MAKE) -f CMakeFiles/analyser.dir/build.make CMakeFiles/analyser.dir/FeatureDescriptor.cpp.o
+.PHONY : FeatureDescriptor.cpp.o
+
+FeatureDescriptor.i: FeatureDescriptor.cpp.i
+.PHONY : FeatureDescriptor.i
+
+# target to preprocess a source file
+FeatureDescriptor.cpp.i:
+	$(MAKE) -f CMakeFiles/analyser.dir/build.make CMakeFiles/analyser.dir/FeatureDescriptor.cpp.i
+.PHONY : FeatureDescriptor.cpp.i
+
+FeatureDescriptor.s: FeatureDescriptor.cpp.s
+.PHONY : FeatureDescriptor.s
+
+# target to generate assembly for a file
+FeatureDescriptor.cpp.s:
+	$(MAKE) -f CMakeFiles/analyser.dir/build.make CMakeFiles/analyser.dir/FeatureDescriptor.cpp.s
+.PHONY : FeatureDescriptor.cpp.s
+
+Histogram.o: Histogram.cpp.o
+.PHONY : Histogram.o
+
+# target to build an object file
+Histogram.cpp.o:
+	$(MAKE) -f CMakeFiles/analyser.dir/build.make CMakeFiles/analyser.dir/Histogram.cpp.o
+.PHONY : Histogram.cpp.o
+
+Histogram.i: Histogram.cpp.i
+.PHONY : Histogram.i
+
+# target to preprocess a source file
+Histogram.cpp.i:
+	$(MAKE) -f CMakeFiles/analyser.dir/build.make CMakeFiles/analyser.dir/Histogram.cpp.i
+.PHONY : Histogram.cpp.i
+
+Histogram.s: Histogram.cpp.s
+.PHONY : Histogram.s
+
+# target to generate assembly for a file
+Histogram.cpp.s:
+	$(MAKE) -f CMakeFiles/analyser.dir/build.make CMakeFiles/analyser.dir/Histogram.cpp.s
+.PHONY : Histogram.cpp.s
+
+HoGDescriptor.o: HoGDescriptor.cpp.o
+.PHONY : HoGDescriptor.o
+
+# target to build an object file
+HoGDescriptor.cpp.o:
+	$(MAKE) -f CMakeFiles/analyser.dir/build.make CMakeFiles/analyser.dir/HoGDescriptor.cpp.o
+.PHONY : HoGDescriptor.cpp.o
+
+HoGDescriptor.i: HoGDescriptor.cpp.i
+.PHONY : HoGDescriptor.i
+
+# target to preprocess a source file
+HoGDescriptor.cpp.i:
+	$(MAKE) -f CMakeFiles/analyser.dir/build.make CMakeFiles/analyser.dir/HoGDescriptor.cpp.i
+.PHONY : HoGDescriptor.cpp.i
+
+HoGDescriptor.s: HoGDescriptor.cpp.s
+.PHONY : HoGDescriptor.s
+
+# target to generate assembly for a file
+HoGDescriptor.cpp.s:
+	$(MAKE) -f CMakeFiles/analyser.dir/build.make CMakeFiles/analyser.dir/HoGDescriptor.cpp.s
+.PHONY : HoGDescriptor.cpp.s
+
+MotionDescriptor.o: MotionDescriptor.cpp.o
+.PHONY : MotionDescriptor.o
+
+# target to build an object file
+MotionDescriptor.cpp.o:
+	$(MAKE) -f CMakeFiles/analyser.dir/build.make CMakeFiles/analyser.dir/MotionDescriptor.cpp.o
+.PHONY : MotionDescriptor.cpp.o
+
+MotionDescriptor.i: MotionDescriptor.cpp.i
+.PHONY : MotionDescriptor.i
+
+# target to preprocess a source file
+MotionDescriptor.cpp.i:
+	$(MAKE) -f CMakeFiles/analyser.dir/build.make CMakeFiles/analyser.dir/MotionDescriptor.cpp.i
+.PHONY : MotionDescriptor.cpp.i
+
+MotionDescriptor.s: MotionDescriptor.cpp.s
+.PHONY : MotionDescriptor.s
+
+# target to generate assembly for a file
+MotionDescriptor.cpp.s:
+	$(MAKE) -f CMakeFiles/analyser.dir/build.make CMakeFiles/analyser.dir/MotionDescriptor.cpp.s
+.PHONY : MotionDescriptor.cpp.s
+
+Utility.o: Utility.cpp.o
+.PHONY : Utility.o
+
+# target to build an object file
+Utility.cpp.o:
+	$(MAKE) -f CMakeFiles/analyser.dir/build.make CMakeFiles/analyser.dir/Utility.cpp.o
+.PHONY : Utility.cpp.o
+
+Utility.i: Utility.cpp.i
+.PHONY : Utility.i
+
+# target to preprocess a source file
+Utility.cpp.i:
+	$(MAKE) -f CMakeFiles/analyser.dir/build.make CMakeFiles/analyser.dir/Utility.cpp.i
+.PHONY : Utility.cpp.i
+
+Utility.s: Utility.cpp.s
+.PHONY : Utility.s
+
+# target to generate assembly for a file
+Utility.cpp.s:
+	$(MAKE) -f CMakeFiles/analyser.dir/build.make CMakeFiles/analyser.dir/Utility.cpp.s
+.PHONY : Utility.cpp.s
+
 iRoomMain.o: iRoomMain.cpp.o
 .PHONY : iRoomMain.o
 
@@ -297,6 +441,24 @@ help:
 	@echo "... CameraMain.o"
 	@echo "... CameraMain.i"
 	@echo "... CameraMain.s"
+	@echo "... ColorDescriptor.o"
+	@echo "... ColorDescriptor.i"
+	@echo "... ColorDescriptor.s"
+	@echo "... FeatureDescriptor.o"
+	@echo "... FeatureDescriptor.i"
+	@echo "... FeatureDescriptor.s"
+	@echo "... Histogram.o"
+	@echo "... Histogram.i"
+	@echo "... Histogram.s"
+	@echo "... HoGDescriptor.o"
+	@echo "... HoGDescriptor.i"
+	@echo "... HoGDescriptor.s"
+	@echo "... MotionDescriptor.o"
+	@echo "... MotionDescriptor.i"
+	@echo "... MotionDescriptor.s"
+	@echo "... Utility.o"
+	@echo "... Utility.i"
+	@echo "... Utility.s"
 	@echo "... iRoomMain.o"
 	@echo "... iRoomMain.i"
 	@echo "... iRoomMain.s"

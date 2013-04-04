@@ -62,7 +62,7 @@ CMAKE_BINARY_DIR = /home/zxwang/workspace/iroom/build
 CMakeFiles/analyser.dir/all:
 	$(MAKE) -f CMakeFiles/analyser.dir/build.make CMakeFiles/analyser.dir/depend
 	$(MAKE) -f CMakeFiles/analyser.dir/build.make CMakeFiles/analyser.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/zxwang/workspace/iroom/build/CMakeFiles  1
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/zxwang/workspace/iroom/build/CMakeFiles  1 2 3 4 5 6 7
 	@echo "Built target analyser"
 .PHONY : CMakeFiles/analyser.dir/all
 
@@ -72,7 +72,7 @@ all: CMakeFiles/analyser.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/analyser.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zxwang/workspace/iroom/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zxwang/workspace/iroom/build/CMakeFiles 7
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/analyser.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/zxwang/workspace/iroom/build/CMakeFiles 0
 .PHONY : CMakeFiles/analyser.dir/rule
@@ -97,7 +97,7 @@ clean: CMakeFiles/analyser.dir/clean
 CMakeFiles/annotate.dir/all:
 	$(MAKE) -f CMakeFiles/annotate.dir/build.make CMakeFiles/annotate.dir/depend
 	$(MAKE) -f CMakeFiles/annotate.dir/build.make CMakeFiles/annotate.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/zxwang/workspace/iroom/build/CMakeFiles  2
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/zxwang/workspace/iroom/build/CMakeFiles  8
 	@echo "Built target annotate"
 .PHONY : CMakeFiles/annotate.dir/all
 
@@ -132,7 +132,7 @@ clean: CMakeFiles/annotate.dir/clean
 CMakeFiles/camera.dir/all:
 	$(MAKE) -f CMakeFiles/camera.dir/build.make CMakeFiles/camera.dir/depend
 	$(MAKE) -f CMakeFiles/camera.dir/build.make CMakeFiles/camera.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/zxwang/workspace/iroom/build/CMakeFiles  3 4
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/zxwang/workspace/iroom/build/CMakeFiles  9 10
 	@echo "Built target camera"
 .PHONY : CMakeFiles/camera.dir/all
 
@@ -167,7 +167,7 @@ clean: CMakeFiles/camera.dir/clean
 CMakeFiles/iroom.dir/all:
 	$(MAKE) -f CMakeFiles/iroom.dir/build.make CMakeFiles/iroom.dir/depend
 	$(MAKE) -f CMakeFiles/iroom.dir/build.make CMakeFiles/iroom.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/zxwang/workspace/iroom/build/CMakeFiles  5
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/zxwang/workspace/iroom/build/CMakeFiles  11
 	@echo "Built target iroom"
 .PHONY : CMakeFiles/iroom.dir/all
 

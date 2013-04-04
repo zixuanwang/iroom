@@ -5,6 +5,12 @@ SET(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_CXX
   "/home/zxwang/workspace/iroom/AnalyserMain.cpp" "/home/zxwang/workspace/iroom/build/CMakeFiles/analyser.dir/AnalyserMain.cpp.o"
+  "/home/zxwang/workspace/iroom/ColorDescriptor.cpp" "/home/zxwang/workspace/iroom/build/CMakeFiles/analyser.dir/ColorDescriptor.cpp.o"
+  "/home/zxwang/workspace/iroom/FeatureDescriptor.cpp" "/home/zxwang/workspace/iroom/build/CMakeFiles/analyser.dir/FeatureDescriptor.cpp.o"
+  "/home/zxwang/workspace/iroom/Histogram.cpp" "/home/zxwang/workspace/iroom/build/CMakeFiles/analyser.dir/Histogram.cpp.o"
+  "/home/zxwang/workspace/iroom/HoGDescriptor.cpp" "/home/zxwang/workspace/iroom/build/CMakeFiles/analyser.dir/HoGDescriptor.cpp.o"
+  "/home/zxwang/workspace/iroom/MotionDescriptor.cpp" "/home/zxwang/workspace/iroom/build/CMakeFiles/analyser.dir/MotionDescriptor.cpp.o"
+  "/home/zxwang/workspace/iroom/Utility.cpp" "/home/zxwang/workspace/iroom/build/CMakeFiles/analyser.dir/Utility.cpp.o"
   )
 SET(CMAKE_CXX_COMPILER_ID "GNU")
 
