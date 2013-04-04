@@ -9,6 +9,7 @@
 #include <boost/lexical_cast.hpp>
 #include "ColorDescriptor.h"
 #include "HoGDescriptor.h"
+#include "MotionDescriptor.h"
 #include <opencv2/opencv.hpp>
 #include "Utility.h"
 
@@ -40,23 +41,23 @@ void test_feature(){
 	cv::namedWindow("capture");
 	ColorDescriptor color;
 	HoGDescriptor hog;
+	MotionDescriptor motion;
 	if(capture.isOpened()){
 		while(true){
 			cv::Mat image;
 			cv::Mat mask;
 			cv::Mat background;
-			cv::Mat magnitude;
-			cv::Mat angle;
-			cv::Mat normalized_magnitude;
+			cv::Mat flow;
 			std::vector<float> histogram;
 			capture >> image;
 			if(image.empty())
 				break;
 			//color.update_background(image, mask);
 			//color.get_background(background);
-			hog.compute_gradient(image, magnitude, angle, histogram);
-			Utility::normalize_image(magnitude, normalized_magnitude);
-			cv::imshow("capture", normalized_magnitude);
+			//hog.compute_gradient(image, histogram);
+			motion.compute(image, flow);
+			motion.draw_optical_flow(flow, image, 16);
+			cv::imshow("capture", image);
 			cv::waitKey(30);
 		}
 	}

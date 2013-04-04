@@ -13,6 +13,10 @@ class MotionDescriptor : public FeatureDescriptor {
 public:
 	MotionDescriptor();
 	virtual ~MotionDescriptor();
+	void draw_optical_flow(const cv::Mat& flow, cv::Mat& cflow_map, int step);
+	void compute(const cv::Mat& image, cv::Mat& flow);
+private:
+	cv::Mat m_prev;
 };
 
 #endif /* MOTIONDESCRIPTOR_H_ */

@@ -17,7 +17,7 @@ public:
 	HoGDescriptor(int num_bins = 9);
 	virtual ~HoGDescriptor();
 	void compute(cv::Mat& image, cv::Mat& mask);
-	void compute_gradient(cv::Mat& image, cv::Mat& magnitude, cv::Mat& angle, std::vector<float>& histogram);
+	void compute_gradient(cv::Mat& image, std::vector<float>& histogram);
 private:
 	int m_num_bins;
 	cv::HOGDescriptor m_hog;

@@ -18,9 +18,9 @@ HoGDescriptor::~HoGDescriptor() {
 void HoGDescriptor::compute(cv::Mat& image, cv::Mat& mask){
 }
 
-void HoGDescriptor::compute_gradient(cv::Mat& image, cv::Mat& magnitude, cv::Mat& angle, std::vector<float>& histogram){
-	magnitude = cv::Mat(image.size(), CV_32FC1, cv::Scalar(0.f));
-	angle = cv::Mat(image.size(), CV_32FC1, cv::Scalar(0.f));
+void HoGDescriptor::compute_gradient(cv::Mat& image, std::vector<float>& histogram){
+	cv::Mat magnitude = cv::Mat(image.size(), CV_32FC1, cv::Scalar(0.f));
+	cv::Mat angle = cv::Mat(image.size(), CV_32FC1, cv::Scalar(0.f));
 	histogram.assign(m_num_bins, 0.f);
 	cv::Mat gray = image;
 	if(image.type() == CV_8UC3){
